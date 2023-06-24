@@ -34,8 +34,6 @@ public class UpDown : MonoBehaviour
         }
         _direction = (target.position - transform.position).normalized;
     }
-   
-    //}
 }
 
 
