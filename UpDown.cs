@@ -34,15 +34,7 @@ public class UpDown : MonoBehaviour
         }
         _direction = (target.position - transform.position).normalized;
     }
-    //Player stays on the platform, rotates with the platform
-    //private void OnTriggerEnter(Collider other)
-    //{
-    //    other.transform.SetParent(transform);
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    other.transform.SetParent(null);
+   
     //}
 }
 
